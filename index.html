@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Pixi</title>
+		<link
+			rel="stylesheet"
+			href="./src/index.css"
+		/>
+	</head>
+	<body>
+		<div class="game">
+			<p>Number of shapes: <p id="numberOfShapes">0</p></p>
+			<div id="game-canvas"></div>
+			<div id="controls">
+				<div class="control-group">
+					<p>Interval to spawn shapes (ms):</p>
+					<button id="decrease-rate">-</button>
+					<span id="rate-value">1</span>
+					<button id="increase-rate">+</button>
+				</div>
+
+				<div class="control-group">
+					<p>Gravity:</p>
+
+					<button id="decrease-gravity">-</button>
+					<span id="gravity-value">1</span>
+					<button id="increase-gravity">+</button>
+				</div>
+			</div>
+		</div>
+		<script
+			type="module"
+			src="./src/index.js"
+		></script>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+{
+	"name": "pixi-codesandbox",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"start": "parcel index.html",
+		"build": "parcel build index.html",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@pixi/events": "^7.3.3",
+		"@pixi/graphics-extras": "^7.3.3",
+		"pixi.js": "^7.3.3"
+	},
+	"devDependencies": {
+		"parcel": "^2.11.0"
+	}
+}

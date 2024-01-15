@@ -1,0 +1,22 @@
+#controls {
+	display: flex;
+	flex-direction: row;
+}
+.control-group:first-child {
+	margin-right: 50px;
+}
+
+.control-group {
+	display: block;
+	width: fit-content;
+}
+
+.game {
+	width: fit-content;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
